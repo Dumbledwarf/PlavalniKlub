@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "2gTOM5wZ8YmgP4FziPxOIRK0DG+uW3Qs0cpVVAE9Mw2fd2gCxzuuJtHV6b2KSu5jt1RajjMxAXCkZYwq0samRg==",
+  "dgSpecHash": "e1/f69B3CEtsNsTc56Lt9cLVHLORhIXSs5udpra6P5TzjY3Jeewkd1orrIPoVsnLoEm8oMxaDU3EOqKrQWbgLQ==",
   "success": true,
   "projectFilePath": "C:\\IS\\PlavalniKlub\\web\\web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Martin123\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Martin123\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.12\\microsoft.aspnetcore.cryptography.internal.5.0.12.nupkg.sha512",
     "C:\\Users\\Martin123\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.12\\microsoft.aspnetcore.cryptography.keyderivation.5.0.12.nupkg.sha512",
+    "C:\\Users\\Martin123\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\5.0.12\\microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.12.nupkg.sha512",
     "C:\\Users\\Martin123\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Martin123\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.12\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.12.nupkg.sha512",
     "C:\\Users\\Martin123\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\5.0.12\\microsoft.aspnetcore.identity.ui.5.0.12.nupkg.sha512",

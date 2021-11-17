@@ -1,9 +1,10 @@
 using web.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace web.Data
 {
-    public class SpljocContext : DbContext
+    public class SpljocContext : IdentityDbContext<ApplicationUser>
     {
         public SpljocContext(DbContextOptions<SpljocContext> options) : base(options)
         {
@@ -17,6 +18,7 @@ namespace web.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Bazen>().ToTable("Bazen");
             modelBuilder.Entity<Plavalec>().ToTable("Plavalec");
             modelBuilder.Entity<Ucitelj>().ToTable("Ucitelj");

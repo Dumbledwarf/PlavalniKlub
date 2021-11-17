@@ -10,6 +10,7 @@ namespace web.Models
         public string Priimek { get; set; }
         public DateTime DatumRojstva { get; set; }
         public int SkupinaID { get; set; }
+        public ApplicationUser? Uporabnik { get; set; }
 
         public Skupina Skupina {get; set;}
     }

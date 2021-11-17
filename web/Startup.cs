@@ -10,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using web.Data;
 using Microsoft.EntityFrameworkCore;
+using web.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace web
 {
@@ -26,6 +28,12 @@ namespace web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddIdentity<ApplicationUser, IdentityRole>(options => 
+            options.Stores.MaxLengthForKeys = 128).
+            AddEntityFrameworkStores<SpljocContext>().
+            AddDefaultUI().
+            AddDefaultTokenProviders();
+            
             services.AddDbContext<SpljocContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("SpljocContext")));
         }
@@ -48,13 +56,15 @@ namespace web
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
-
+            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
         }
     }
