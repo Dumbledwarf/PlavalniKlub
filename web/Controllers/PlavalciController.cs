@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace web.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Administrator,Trener")]
     public class PlavalciController : Controller
     {
         private readonly SpljocContext _context;

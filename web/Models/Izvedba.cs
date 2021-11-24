@@ -9,7 +9,7 @@ namespace web.Models
         public DateTime DatumUra { get; set; }
         public int SkupinaID { get; set; }
         public int? NadomestniUciteljID { get; set; }
-        public Ucitelj NadomestniUcitelj { get; set; }
+        public Ucitelj? NadomestniUcitelj { get; set; }
         public Skupina Skupina { get; set; }
     }
 }
