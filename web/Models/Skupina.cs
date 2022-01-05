@@ -5,6 +5,9 @@ namespace web.Models
 {
     public class Skupina
     {
+        public Skupina(){
+            
+        }
         public Skupina(int uciteljID, int bazenID, int progaID, int ura)
         {
             UciteljID = uciteljID;

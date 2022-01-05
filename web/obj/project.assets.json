@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Humanizer.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
@@ -59,11 +59,11 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Html.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/5.0.12": {
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/5.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.12",
-          "Microsoft.Extensions.Identity.Stores": "5.0.12"
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.0",
+          "Microsoft.Extensions.Identity.Stores": "5.0.0"
         },
         "compile": {
           "lib/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {}
@@ -506,7 +506,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "5.0.12"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/netstandard2.1/_._": {}
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -2217,10 +2217,10 @@
         "microsoft.aspnetcore.html.abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/5.0.12": {
-      "sha512": "2eIJAGT+Fal2QAQK0mDmIRUOonXhVuY2I8qthHD9KUkzfDI0JSuZNPfa3EHR9r5fbSiPO9+bPiocy4vw9UgcrQ==",
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/5.0.0": {
+      "sha512": "AfAFu+ndWsohAwIdek489Xi0kAAKQ8j6x/Q1e3sAHpfy9Keraj6tPp0tpjh8VeQJb1TlMcuiqJGxatgEGiN1IA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.identity.entityframeworkcore/5.0.12",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2230,7 +2230,7 @@
         "lib/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
         "lib/netstandard2.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll",
         "lib/netstandard2.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
-        "microsoft.aspnetcore.identity.entityframeworkcore.5.0.12.nupkg.sha512",
+        "microsoft.aspnetcore.identity.entityframeworkcore.5.0.0.nupkg.sha512",
         "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
@@ -7447,9 +7447,9 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.12",
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.12",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.12",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.12",
@@ -7457,29 +7457,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Martin123\\.nuget\\packages\\": {}
+    "C:\\Users\\jurev\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\IS\\PlavalniKlub\\web\\web.csproj",
+      "projectUniqueName": "C:\\Users\\jurev\\Desktop\\Faks\\2.letnik\\IS\\PlavalniKlub\\web\\web.csproj",
       "projectName": "web",
-      "projectPath": "C:\\IS\\PlavalniKlub\\web\\web.csproj",
-      "packagesPath": "C:\\Users\\Martin123\\.nuget\\packages\\",
-      "outputPath": "C:\\IS\\PlavalniKlub\\web\\obj\\",
+      "projectPath": "C:\\Users\\jurev\\Desktop\\Faks\\2.letnik\\IS\\PlavalniKlub\\web\\web.csproj",
+      "packagesPath": "C:\\Users\\jurev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jurev\\Desktop\\Faks\\2.letnik\\IS\\PlavalniKlub\\web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Martin123\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jurev\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -7490,8 +7490,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
@@ -7499,13 +7499,15 @@
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[5.0.12, )"
+            "version": "[5.0.0, )"
           },
           "Microsoft.AspNetCore.Identity.UI": {
             "target": "Package",
             "version": "[5.0.12, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.12, )"
           },
@@ -7536,7 +7538,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

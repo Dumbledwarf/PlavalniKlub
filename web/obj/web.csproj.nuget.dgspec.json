@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\IS\\PlavalniKlub\\web\\web.csproj": {}
+    "C:\\Users\\jurev\\Desktop\\Faks\\2.letnik\\IS\\PlavalniKlub\\web\\web.csproj": {}
   },
   "projects": {
-    "C:\\IS\\PlavalniKlub\\web\\web.csproj": {
+    "C:\\Users\\jurev\\Desktop\\Faks\\2.letnik\\IS\\PlavalniKlub\\web\\web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\IS\\PlavalniKlub\\web\\web.csproj",
+        "projectUniqueName": "C:\\Users\\jurev\\Desktop\\Faks\\2.letnik\\IS\\PlavalniKlub\\web\\web.csproj",
         "projectName": "web",
-        "projectPath": "C:\\IS\\PlavalniKlub\\web\\web.csproj",
-        "packagesPath": "C:\\Users\\Martin123\\.nuget\\packages\\",
-        "outputPath": "C:\\IS\\PlavalniKlub\\web\\obj\\",
+        "projectPath": "C:\\Users\\jurev\\Desktop\\Faks\\2.letnik\\IS\\PlavalniKlub\\web\\web.csproj",
+        "packagesPath": "C:\\Users\\jurev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jurev\\Desktop\\Faks\\2.letnik\\IS\\PlavalniKlub\\web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Martin123\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jurev\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -44,13 +44,15 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.12, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[5.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.12, )"
             },
@@ -81,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

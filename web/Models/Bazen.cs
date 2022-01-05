@@ -5,6 +5,9 @@ namespace web.Models
 {
     public class Bazen
     {
+        public Bazen(){
+            
+        }
         public Bazen( string ime, string naslov)
         {
             Ime = ime;
