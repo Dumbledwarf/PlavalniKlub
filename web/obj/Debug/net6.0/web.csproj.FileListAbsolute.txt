@@ -140,3 +140,7 @@ C:\Users\jurev\Desktop\Faks\2.letnik\IS\PlavalniKlub\web\obj\Debug\net6.0\web.dl
 C:\Users\jurev\Desktop\Faks\2.letnik\IS\PlavalniKlub\web\obj\Debug\net6.0\ref\web.dll
 C:\Users\jurev\Desktop\Faks\2.letnik\IS\PlavalniKlub\web\obj\Debug\net6.0\web.pdb
 C:\Users\jurev\Desktop\Faks\2.letnik\IS\PlavalniKlub\web\obj\Debug\net6.0\web.genruntimeconfig.cache
+C:\Users\jurev\Desktop\Faks\2.letnik\IS\PlavalniKlub\web\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\jurev\Desktop\Faks\2.letnik\IS\PlavalniKlub\web\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jurev\Desktop\Faks\2.letnik\IS\PlavalniKlub\web\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jurev\Desktop\Faks\2.letnik\IS\PlavalniKlub\web\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

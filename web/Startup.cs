@@ -34,6 +34,8 @@ namespace web
             AddDefaultUI().
             AddDefaultTokenProviders();
             
+            services.AddSwaggerGen();
+
             services.AddDbContext<SpljocContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("AzureContex")));
         }
@@ -65,6 +67,12 @@ namespace web
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
+            });
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+            c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
         }
     }
