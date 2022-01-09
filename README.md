@@ -24,4 +24,4 @@ Uporabljeni sta metodi POST in GET (**cr**ud).
 - Jure Branko je naredil 2. del naloge (2. zagovor).
 
 ## Slika podatkovnega modela
- ![Test Image 4][https://github.com/Dumbledwarf/PlavalniKlub/blob/main/Slike/unknown2.png]
+ ![github-small][https://github.com/Dumbledwarf/PlavalniKlub/blob/main/Slike/unknown2.png]
