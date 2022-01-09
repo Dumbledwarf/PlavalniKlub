@@ -37,6 +37,7 @@ namespace web
             services.AddSwaggerGen();
 
             services.AddDbContext<SpljocContext>(options =>
+                //options.UseSqlServer(Configuration.GetConnectionString("SpljocContext")));
                 options.UseSqlServer(Configuration.GetConnectionString("AzureContex")));
         }
 
