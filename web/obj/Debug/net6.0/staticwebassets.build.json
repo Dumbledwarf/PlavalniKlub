@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f0mFopnEHcjK5rRmq+Dbhm5K7sj9a13w6pwUS9XfTNU=",
+  "Hash": "kPVJU7o1quD+2gfLLUhuXidUOVTvYW//0TwrrGlJs+Y=",
   "Source": "web",
   "BasePath": "_content/web",
   "Mode": "Default",
@@ -661,6 +661,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\jurev\\Desktop\\Faks\\2.letnik\\IS\\PlavalniKlub\\web\\wwwroot\\images\\Bazen.jpg",
+      "SourceId": "web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jurev\\Desktop\\Faks\\2.letnik\\IS\\PlavalniKlub\\web\\wwwroot\\",
+      "BasePath": "_content/web",
+      "RelativePath": "images/Bazen.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Bazen.jpg"
     },
     {
       "Identity": "C:\\Users\\jurev\\Desktop\\Faks\\2.letnik\\IS\\PlavalniKlub\\web\\wwwroot\\js\\site.js",
